@@ -2,9 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-const CustomNavbar = function () {
+const MyNavbar = function () {
   return (
-    <Container fluid className="px-0 nav-style ">
+    <Container fluid className="mb-2 nav-style ">
       <Navbar collapseOnSelect expand="md">
         <Navbar.Brand href="#" className="fw-bold ms-5 fs-3 text-dark">
           Epic-Book Shop
@@ -19,7 +19,7 @@ const CustomNavbar = function () {
               About
             </Nav.Link>
             {/* {''} */}
-            <Nav.Link href="#" className="me-3 text-dark">
+            <Nav.Link href="#" className="me-4 text-dark">
               Browse
             </Nav.Link>
           </Nav>
@@ -29,4 +29,4 @@ const CustomNavbar = function () {
   );
 };
 
-export default CustomNavbar;
+export default MyNavbar;

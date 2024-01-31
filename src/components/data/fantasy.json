@@ -7,6 +7,13 @@
     "category": "fantasy"
   },
   {
+    "asin": "0451414888",
+    "title": "Dragon Fate: Book Six of The Age of Fire",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81qAK72OCYL.jpg",
+    "price": 8.53,
+    "category": "fantasy"
+  },
+  {
     "asin": "0316389706",
     "title": "Sword of Destiny (The Witcher)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91uxJwnolDL.jpg",
@@ -21,19 +28,20 @@
     "category": "fantasy"
   },
   {
+    "asin": "0345470931",
+    "title": "Time Dancers (The Meq)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51XXKl1lDWL.jpg",
+    "price": 14.28,
+    "category": "fantasy"
+  },
+  {
     "asin": "1945683694",
     "title": "Destiny Grimoire Anthology, Volume II: Fallen Kingdoms",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91IHwcEy2DL.jpg",
     "price": 19.92,
     "category": "fantasy"
   },
-  {
-    "asin": "0786966254",
-    "title": "D&D Waterdeep Dragon Heist HC (Dungeons & Dragons)",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/81Sfnxpke4L.jpg",
-    "price": 34.61,
-    "category": "fantasy"
-  },
+  
   {
     "asin": "0062059882",
     "title": "American Gods: The Tenth Anniversary Edition: A Novel",
@@ -181,13 +189,7 @@
     "price": 9.1,
     "category": "fantasy"
   },
-  {
-    "asin": "0451414888",
-    "title": "Dragon Fate: Book Six of The Age of Fire",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/81qAK72OCYL.jpg",
-    "price": 8.53,
-    "category": "fantasy"
-  },
+  
   {
     "asin": "0765327740",
     "title": "Severed Souls: A Richard and Kahlan Novel",
@@ -204,9 +206,16 @@
   },
   {
     "asin": "4805310812",
-    "title": "The Tale of Genji: The Arthur Waley Translation of Lady Murasaki's Masterpiece with a new foreword by Dennis Washburn (Tuttle Classics)",
+    "title": "The Tale of Genji: The Arthur Waley Translation of Lady Murasaki's (Tuttle Classics)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/918dqgtXhdL.jpg",
-    "price": 22.21,
+    "price": 22.25,
+    "category": "fantasy"
+  },
+  {
+    "asin": "0786966254",
+    "title": "D&D Waterdeep Dragon Heist HC (Dungeons & Dragons)",
+    "img": "https://images-na.ssl-images-amazon.com/images/I/81Sfnxpke4L.jpg",
+    "price": 34.61,
     "category": "fantasy"
   },
   {
@@ -699,13 +708,7 @@
     "price": 12.85,
     "category": "fantasy"
   },
-  {
-    "asin": "0345470931",
-    "title": "Time Dancers (The Meq)",
-    "img": "https://images-na.ssl-images-amazon.com/images/I/51XXKl1lDWL.jpg",
-    "price": 14.28,
-    "category": "fantasy"
-  },
+  
   {
     "asin": "1400160510",
     "title": "The Lies of Locke Lamora (Gentleman Bastard)",

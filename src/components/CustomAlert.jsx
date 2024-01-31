@@ -2,22 +2,22 @@ import Alert from 'react-bootstrap/Alert';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-const CustomAlert = function () {
+const MyAlert = function () {
   return (
     <>
       <Container>
-        <Row className="justify-content-center align-items-center">
+        <Row className="justify-content-center align-items-center mb-5">
           <Col>
             <Alert className="alert-style">
-              <Alert.Heading className="text-center text-dark">
-                CIAO LETTORE!
+              <Alert.Heading className="text-center fs-4 text-dark">
+                Ciao!
               </Alert.Heading>
-              <h2 className="text-center text-dark">
+              <h1 className="text-center text-dark fw-bold ">
                 Benvenuto in Epic-Book Shop!
-              </h2>
-              <hr />
-              <h5 className="mb-0 text-center text-dark">
-                Sfoglia pure il nostro catalogo, troverai l'avventura fantasy
+              </h1>
+              <hr className='text-dark' />
+              <h5 className="mb-0 text-center text-dark fs-4 pb-2">
+                Sfoglia il nostro immenso catalogo!<br />Troverai l'avventura fantasy
                 che fa per te!
               </h5>
             </Alert>
@@ -28,4 +28,4 @@ const CustomAlert = function () {
   );
 };
 
-export default CustomAlert;
+export default MyAlert;

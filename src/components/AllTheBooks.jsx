@@ -6,20 +6,20 @@ import Col from 'react-bootstrap/Col';
 // row-cols-2 row-cols-sm-2 row-cols-md 3 row-cols-lg-6 justify-content-center ROW
 const AllTheBooks = function () {
   return (
-    <Row className="row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-5  ">
+    <Row className=" row row-cols-2 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 ">
       {books.map((book) => {
         return (
-          <Col key={book.asin}>
-            <Card className=" pb-5 h-100 w-100 card-estetics">
-              <Card.Img variant="top" src={book.img} alt={book.title} />
-              <Card.Body className="d-flex flex-column p-1 card-estetics align-items-center">
-                <Card.Title className="text-center mt-3">
+          <Col className="" key={book.asin}>
+            <Card className="mt-5 p-3 w-100 card-estetics">
+              <Card.Img src={book.img} alt={book.title} />
+              <Card.Body className="card-estetics d-flex flex-column p-1 align-items-center">
+                <Card.Title className="text-center mt-3 fw-bold ">
                   {book.title}
                 </Card.Title>
-                <Card.Text className="text-center">${book.price}</Card.Text>
-                <Button className="mt-auto mb-4 pb-2 px-3 fw-bold buyButton">
-                  Acquista
-                </Button>
+                <div id='bottomFixed'><Card.Text className="text-center fw-bold mt-3">${book.price}</Card.Text>
+                  <Button className=" pb-2 mb-3 fw-bold card-button-style">
+                    Agg. al carrello
+                  </Button></div>
               </Card.Body>
               {/* <hr /> */}
             </Card>{' '}

@@ -6,29 +6,26 @@ import CustomNavbar from './components/CustomNavbar';
 import CustomFooter from './components/CustomFooter';
 import CustomAlert from './components/CustomAlert';
 // import AllTheBooks from './components/AllTheBooks';
-import { Container } from 'react-bootstrap';
-// import { Container, Row, Col } from 'react-bootstrap';
-import SingleBook from './components/SingleBook';
-// import BookList from './components/BookList';
-// import books from './data/fantasy.json';
+import BookList from './components/BookList';
+import { Row, Col } from 'react-bootstrap';
+// import SingleBook from './components/SingleBook';
+import books from '../src/components/data/fantasy.json';
 function App() {
   return (
     <>
-      <header>
-        <CustomNavbar className="navStyle" />
-      </header>
+      <CustomNavbar />
       <CustomAlert />
-      <main>
-        <Container>
-          {/* book={books[0]} */}
-          <SingleBook />
+      {/* --------------------------------- */}
+      {/* <AllTheBooks /> */}
+      {/* <SingleBook once={books[0]} /> */}
+      {/* --------------------------------- */}
+      <Row className="row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 mx-5">
+        <Col>
+          <BookList jsonFantasy={books} />
+        </Col>
+      </Row>
 
-          {/* <AllTheBooks /> */}
-        </Container>
-      </main>
-      <footer>
-        <CustomFooter className="footerStyle" />
-      </footer>
+      <CustomFooter />
     </>
   );
 }
