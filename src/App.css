@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+.alert-style {
+  border: 2px solid #733e1334 !important;
+  font-style: italic;
+  margin-top: 30px;
+  background: linear-gradient(to bottom, #fbdfb3ce, #d0965c);
+  color: #ffffff;
+  box-shadow: 0 20px 100px rgba(127, 88, 49, 0.865);
+}
+
+.nav-style {
+  border: 2px solid #ba65209b !important;
+  background: linear-gradient(to top, #fbdfb3b6, #d0965cf0);
+  box-shadow: 50px 20px 100px rgba(127, 88, 49, 0.865);
+}
+.card-estetics {
+  background: linear-gradient(to bottom, #fbdfb3ce, #996740);
+  color: #ffffff;
+  box-shadow: 10px 10px 30px rgba(116, 80, 45, 0.777);
+}
+.buyButton {
+  background: linear-gradient(to bottom, #d1ad75, #382212);
+  border: 2px solid #733e13b3 !important;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+  /* Shadow al hover del mouse */
+  &:hover {
+    box-shadow: 0 0 15px rgba(54, 28, 6, 0.767);
+    transform: translateY(-2px);
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* .footerStyle {
+  position: absolute;
+} */
