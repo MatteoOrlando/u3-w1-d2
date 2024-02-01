@@ -10,7 +10,7 @@ const MyAlert = function () {
           <Col>
             <Alert className="alert-style">
               <Alert.Heading className="text-center fs-4 text-dark">
-                Ciao!
+                Ciao caro lettore!
               </Alert.Heading>
               <h1 className="text-center text-dark fw-bold ">
                 Benvenuto in Epic-Book Shop!

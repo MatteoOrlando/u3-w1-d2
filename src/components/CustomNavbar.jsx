@@ -7,6 +7,7 @@ const MyNavbar = function () {
     <Container fluid className="mb-2 nav-style ">
       <Navbar collapseOnSelect expand="md">
         <Navbar.Brand href="#" className="fw-bold ms-5 fs-3 text-dark">
+          {/* <i className="bi bi-book me-2"></i> */}
           Epic-Book Shop
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav " />

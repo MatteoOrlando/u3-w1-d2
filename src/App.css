@@ -1,10 +1,10 @@
-/* IL CSS É ORDINATO ALFABETICAMENTE*/
+/*<<<<<<<< ordine alfabetico >>>>>>>>*/
 
 .alert-style {
   border: 2px solid #733e1334 !important;
   font-style: italic;
   margin-top: 30px;
-  background: linear-gradient(to bottom, #fbdfb3ce, #d0965c);
+  background: linear-gradient(to bottom, #fbdfb3ce, #d0965cf0);
   color: #ffffff;
   box-shadow: 0 20px 100px rgba(127, 88, 49, 0.865);
 }
@@ -28,10 +28,41 @@
   background: linear-gradient(to bottom, #fbdfb3ce, #c48d63ee);
   color: #ffffff;
   box-shadow: 10px 10px 30px rgba(116, 80, 45, 0.777);
+  &:hover {
+    box-shadow: 20px 0 50px rgba(54, 28, 6, 0.767);
+    transform: translateY(-5px);
+  }
 }
+.card-img {
+  box-shadow: 20px 20px 40px rgba(92, 63, 35, 0.188);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img-size {
+  display: block;
+  margin: 0 auto;
+}
+.comment-area-container {
+  background-color: #faf8f9; /* Colore di sfondo del commento */
+  border: 1px solid #0d355c; /* Bordo del commento */
+  padding: 15px;
+  margin-top: 20px; /* Spaziatura superiore del commento */
+}
+
+.comment-title {
+  color: #007bff; /* Colore del titolo dei commenti */
+}
+
 .footer-style {
-  background: linear-gradient(to bottom, #fbdfb3ce, #c38e59);
+  background: linear-gradient(to bottom, #fbdfb3ce, #d0965cf0);
   border: 2px solid #733e13b3 !important;
+}
+/* Search da sistemare */
+.search-style {
+  border: 5px solid #c3976b7d !important;
+  background: linear-gradient(to top, #ffeac9b6, #c1bdb2ee);
+  box-shadow: 20px 20px 40px rgba(92, 63, 35, 0.335);
 }
 
 .nav-style {
@@ -39,16 +70,13 @@
   background: linear-gradient(to top, #ffeac9b6, #d0965cf0);
   box-shadow: 50px 20px 100px rgba(127, 88, 49, 0.865);
 }
-
-.upButton {
-  background: linear-gradient(to bottom, #98e93bd7, #0f7402a6);
-  border: 2px solid #733e13b3 !important;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+.selected-card {
+  /* border: 2px dashed rgba(25, 133, 41, 0.772) !important; */
+  border: 5px solid rgba(123, 7, 7, 0.594) !important;
 }
-/* DEVO SISTEMARE IL FORM */
-/* .form-style {
-  border: 2px solid #ba65204b !important;
-  background: linear-gradient(to top, #ffeac9b6, #c1bdb2ee);
-  box-shadow: 50px 20px 100px rgba(127, 88, 49, 0.865);
-} */
+.upButton {
+  font-weight: 100 !important;
+  background: linear-gradient(to bottom, #538915a9, #093e02d8);
+  border: 2px solid #733e13b3 !important;
+  box-shadow: 10px 10px 30px rgba(69, 55, 39, 0.777);
+}
